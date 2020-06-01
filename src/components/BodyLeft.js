@@ -1,42 +1,89 @@
-import React, { Fragment } from 'react'
-import { Button, Divider, Menu, Label, Icon, ButtonGroup } from 'semantic-ui-react';
-
+import React from 'react'
+import { Button, Divider,  Label, Icon, ButtonGroup } from 'semantic-ui-react';
+import './BodyLeft.scss'
 
 const BodyLeft = () => {
 
   return (
     
     <ButtonGroup vertical fluid>
-      <Button fluid >
-        <Icon name='home' /> Главная 
+      <Button className='current-active'>
+        <Icon name='home' className='current-active' /> Главная 
       </Button>
-      <Button fluid>
+      <Button >
         <Icon name='fire' /> В тренде
       </Button>
-      <Button fluid>
+      <Button >
         <Icon name='mail' />Подписки
       </Button>
       <Divider />
-      <Button fluid>
+      <Button >
         <Icon name='play circle' />Библиотека
       </Button>
-      <Button fluid>
+      <Button >
         <Icon name='undo' />История
       </Button>
-      <Button fluid>
+      <Button >
         <Icon name='mail' />Ваши видео
       </Button>
-      <Button fluid>
+      <Button >
         <Icon name='clock' />Смореть позже
       </Button>
-      <Button fluid>
+      <Button >
         <Icon name='like' />Понравившиеся
       </Button>
       <Divider />
-      <Label size='large'>
-          ПОДПИСКИ
+      <Label>
+        ПОДПИСКИ
       </Label>
-    </ButtonGroup>
+      <Button  >
+        <Icon name='circle' /> Channel  
+      </Button>
+      <Button >
+        <Icon name='circle' /> Channel
+      </Button>
+      <Button >
+        <Icon name='circle' /> Channel
+      </Button>
+      <Button  >
+        <Icon name='circle' /> Channel 
+      </Button>
+      <Button >
+        <Icon name='circle' /> Channel
+      </Button>
+      <Button >
+        <Icon name='circle' /> Channel
+      </Button>
+      <Divider />
+      <Label>
+        Другие возможности
+      </Label>
+      <Button  >
+        <Icon name='circle' /> Youtube Premium  
+      </Button>
+      <Button >
+        <Icon name='circle' /> Фильмы
+      </Button>
+      <Button >
+        <Icon name='circle' /> Видеоигры
+      </Button>
+      <Button  >
+        <Icon name='circle' /> Трансляции 
+      </Button>
+      <Divider />
+      <Button >
+        <Icon name='circle' /> Настройки
+      </Button>
+      <Button >
+        <Icon name='circle' /> Жалобы
+      </Button>
+      <Button >
+        <Icon name='circle' /> Справка
+      </Button>
+      <Button >
+        <Icon name='circle' /> Отправить отзыв
+      </Button>
+    </ButtonGroup> 
     
   )
 }

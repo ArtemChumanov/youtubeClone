@@ -7,9 +7,9 @@ import BodyYT from './components/BodyYT';
 function App() {
   return (
     <div >
-      <Grid >
-        <HeaderYT />
-        <BodyYT />
+      <Grid padded >
+        <HeaderYT  />
+        <BodyYT  />
       </Grid>
     </div>
   );
