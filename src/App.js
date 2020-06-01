@@ -7,7 +7,7 @@ import BodyYT from './components/BodyYT';
 function App() {
   return (
     <div >
-      <Grid>
+      <Grid >
         <HeaderYT />
         <BodyYT />
       </Grid>
